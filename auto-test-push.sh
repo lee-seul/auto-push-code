@@ -22,7 +22,7 @@ if [  "$?" = "0" ]; then
     
     MESSAGE="$1"
     if [ $1 = '' ]; then
-        MESSAGE = "auto commit and push"
+        MESSAGE="auto commit and push"
     fi 
 
     git add .
