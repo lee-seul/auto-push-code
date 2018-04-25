@@ -36,7 +36,7 @@ else
     echo ""
     echo ""
 
-    exit 1
+    ./auto-repo-change-check.sh
 fi
 
 ./auto-repo-change-check.sh
